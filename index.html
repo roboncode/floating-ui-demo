@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Floating UI Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scroll-container">
+        <div class="button-container">
+          <button id="button" aria-describedby="tooltip">My button</button>
+        </div>
+        <div class="floating-container">
+          <div id="floating" role="tooltip">
+            Tooltip that is wider than its reference can overflow.
+
+            <div id="arrow" role="none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
